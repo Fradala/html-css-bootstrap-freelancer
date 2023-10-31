@@ -10,7 +10,9 @@
 body{
     color: white;
 }
-
+.nero{
+    color: black;
+}
 .sfondo-blu{
     background-color: rgb(16, 70, 196);
 }
@@ -37,3 +39,6 @@ body{
     text-align: end;
 }
 
+.sei-foto{
+    width: 100%;
+}
