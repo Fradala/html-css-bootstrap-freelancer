@@ -1,9 +1,9 @@
-[class^='col']{
+/*[class^='col']{
     border: 2px solid black;
 }
 [class^='offset']{
     border: 2px solid black;
-}
+}*/
 
 
 
@@ -41,4 +41,10 @@ body{
 
 .sei-foto{
     width: 100%;
+}
+.bordo{
+    border-bottom: 1px solid black;
+}
+.sfondo-footer{
+    background-color: rgb(34, 16, 16);
 }
