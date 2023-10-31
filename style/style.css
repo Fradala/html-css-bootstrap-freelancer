@@ -1,6 +1,15 @@
 [class^='col']{
     border: 2px solid black;
 }
+[class^='offset']{
+    border: 2px solid black;
+}
+
+
+
+body{
+    color: white;
+}
 
 .sfondo-blu{
     background-color: rgb(16, 70, 196);
@@ -9,3 +18,22 @@
 .sfondo-verde{
     background-color: rgb(61, 191, 95);
 }
+
+.titolo{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 13px;
+}
+
+.text-aling-center{
+    text-align: center;
+}
+
+.text-aling-start{
+    text-align: start;
+}
+
+.text-aling-end{
+    text-align: end;
+}
+
