@@ -1,0 +1,11 @@
+[class^='col']{
+    border: 2px solid black;
+}
+
+.sfondo-blu{
+    background-color: rgb(16, 70, 196);
+}
+
+.sfondo-verde{
+    background-color: rgb(61, 191, 95);
+}
