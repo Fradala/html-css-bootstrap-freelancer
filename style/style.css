@@ -5,7 +5,9 @@
     border: 2px solid black;
 }*/
 
-
+a{
+    color: white;
+}
 
 body{
     color: white;
@@ -105,6 +107,9 @@ section{
 }
 .bottone-bianco{
     color: white;
+}
+.input-group-text{
+    background-color: white;
 }
 
 /*UPPER*/
