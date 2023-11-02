@@ -106,6 +106,10 @@ section{
 
 /*ABOUT*/
 
+.input-group-text{
+    background-color: white;
+}
+
 .piccola{
     width: 40px;
 }
