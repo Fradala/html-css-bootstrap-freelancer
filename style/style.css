@@ -10,15 +10,22 @@
 body{
     color: white;
 }
+
+
+section,
+footer{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 .nero{
     color: black;
 }
 .sfondo-blu{
-    background-color: rgb(16, 70, 196);
+    background-color: #3a546d;
 }
 
 .sfondo-verde{
-    background-color: rgb(61, 191, 95);
+    background-color: #1abc9c;
 }
 
 .titolo{
@@ -26,25 +33,33 @@ body{
     font-size: 20px;
     padding-top: 13px;
 }
-
-.text-aling-center{
-    text-align: center;
+.header-content{
+    height: 500px;
+    background-color: yellow;
 }
 
-.text-aling-start{
-    text-align: start;
-}
 
-.text-aling-end{
-    text-align: end;
-}
 
 .sei-foto{
     width: 100%;
 }
-.bordo{
-    border-bottom: 1px solid black;
-}
+
 .sfondo-footer{
     background-color: rgb(34, 16, 16);
+}
+
+.my_wrapper-big{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+@media screen and (min-width:992px){
+
+    .my_wrapper-small{
+        padding-left: 12.5%;
+        padding-right: 12.5%;
+    }
+
+    
+    
 }
