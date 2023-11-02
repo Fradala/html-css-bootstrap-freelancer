@@ -5,7 +5,7 @@
     border: 2px solid black;
 }*/
 
-a{
+.navbar-brand{
     color: white;
 }
 
@@ -17,6 +17,7 @@ body{
 section{
     padding-top: 2rem;
     padding-bottom: 2rem;
+    
 }
 .nero{
     color: black;
