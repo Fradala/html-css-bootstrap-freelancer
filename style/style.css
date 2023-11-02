@@ -12,8 +12,7 @@ body{
 }
 
 
-section,
-footer{
+section{
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -27,21 +26,61 @@ footer{
 .sfondo-verde{
     background-color: #1abc9c;
 }
+.foto{
+    width: 50%;
+}
 
 .titolo{
-    text-transform: uppercase;
-    font-size: 20px;
+    
+    font-size: 40px;
     padding-top: 13px;
+    
 }
+.uppercase{
+    text-transform: uppercase;
+}
+
 .header-content{
-    height: 500px;
-    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
 }
 
+.flex{
+    display: flex;
+}
+.linea{
+    
+    border-radius: 20px;
+    
+    display: inline-block;
+    margin-bottom: 7px;
+}
+.linea-bianca{
+    border: 2px solid white;
+}
+.linea-nera{
+    border: 2px solid black;
+}
+.grande{
+    width: 90px;
+}
 
+.bianca{
+    color: white;
+    font-size: 30px;
+}
+.nera{
+    color: black;
+    font-size: 30px;
+}
 
 .sei-foto{
     width: 100%;
+    border-radius: 20px;
 }
 
 .sfondo-footer{
@@ -51,6 +90,51 @@ footer{
 .my_wrapper-big{
     padding-left: 15%;
     padding-right: 15%;
+}
+
+/*PORTFOLIO*/
+
+.titoletto{
+    font-size: 30px;
+}
+
+/*ABOUT*/
+
+.piccola{
+    width: 40px;
+}
+.bottone-bianco{
+    color: white;
+}
+
+/*UPPER*/
+.fa-facebook-f{
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 15px;
+    margin-right: 5px;
+}
+.fa-google-plus-g{
+    border-radius: 26px;
+    border: 1px solid white;
+    padding: 15px;
+    margin-right: 5px;
+}
+.fa-twitter{
+    border-radius: 26px;
+    border: 1px solid white;
+    padding: 15px;
+    margin-right: 5px;
+}
+.fa-linkedin{
+    border-radius: 26px;
+    border: 1px solid white;
+    padding: 15px;
+    margin-right: 5px;
+}
+
+.text-verde{
+    color: rgb(66, 239, 66);
 }
 
 @media screen and (min-width:992px){
