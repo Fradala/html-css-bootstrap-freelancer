@@ -19,6 +19,9 @@ section{
     padding-bottom: 2rem;
     
 }
+.nav-link{
+    color: white;
+}
 .nero{
     color: black;
 }
@@ -109,8 +112,18 @@ section{
 .bottone-bianco{
     color: white;
 }
-.input-group-text{
-    background-color: white;
+
+
+label{
+    color: black;
+}
+
+.floatingTextarea2{
+    height: 160px;
+}
+
+.btn-success{
+    text-align: start;
 }
 
 /*UPPER*/
